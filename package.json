@@ -13,10 +13,16 @@
 		"redux": "^3.7.2"
 	},
 	"devDependencies": {
+		"babel-eslint": "^8.0.0",
 		"babel-jest": "20.0.3",
-		"babel-preset-react-native": "3.0.1",
+		"babel-preset-react-native": "^3.0.1",
+		"eslint": "^4.7.0",
+		"eslint-config-xo": "^0.18.2",
+		"eslint-config-xo-react": "^0.13.0",
+		"eslint-plugin-react": "^7.3.0",
 		"jest": "20.0.4",
-		"react-test-renderer": "16.0.0-alpha.12"
+		"react-test-renderer": "16.0.0-alpha.12",
+		"xo": "^0.18.2"
 	},
 	"jest": {
 		"preset": "react-native"

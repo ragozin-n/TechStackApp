@@ -1,0 +1,13 @@
+{
+    "extends": ["xo", "xo-react"],
+    "parser": "babel-eslint",
+    "rules": {
+        "react/prop-types": 0,
+        "react/jsx-no-bind": 0,
+        "no-use-before-define": 0,
+        "react/forbid-component-props": 0,
+
+        //experimental feature in babel-eslint
+        "no-undef": 0
+    }
+}
